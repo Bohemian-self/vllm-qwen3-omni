@@ -33,7 +33,7 @@ class AIMv2Config(PretrainedConfig):
         kwargs: Keyword arguments for the [`PretrainedConfig`].
     """
 
-    model_type: str = "aimv2"
+    model_type: str = "aimv2_vllm"
 
     def __init__(
         self,
